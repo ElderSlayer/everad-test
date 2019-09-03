@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="dist/main.css" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <section class="section hero">
+        <div class="container hero__container">
+            <div class="hero__collage">
+                <div class="collage">
+                    <div class="collage__logo">
+                        <img src="assets/img/logo.png" alt="">
+
+                        <h2 class="collage__logo-title">Микоцин</h2>
+                    </div>
+
+                    <div class="collage__ellipse">
+                        <div class="collage__ellipse-img">
+
+                        </div>
+                    </div>
+
+                    <div class="collage__herb">
+                        <img src="assets/img/hero-herb.png" alt="">
+                    </div>
+
+                    <div class="collage__legs">
+                        <img src="assets/img/hero-legs.png" alt="">
+                    </div>
+                    
+                    <div class="collage__mycocin">
+                        <p class="collage__mycocin-price collage__mycocin-price-active">299 ₽</p>
+
+                        <p class="collage__mycocin-price">299 ₽</p>
+
+                        <img src="assets/img/hero-mycocin-group.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero__content">
+                <div class="row hero__content-row">
+                    <div class="col hero__advantage-col">
+                        <div class="hero__advantage">
+                            <div class="hero__advantage-block">
+                                <svg class="hero__advantage-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39px" height="39px">
+                                    <path fill-rule="evenodd"  fill="rgb(163, 172, 181)" d="M26.824,35.146 C25.540,35.144 24.264,34.935 23.045,34.532 C21.447,37.299 18.490,39.000 15.294,38.987 C14.065,38.993 12.849,38.742 11.720,38.258 C7.189,36.300 5.102,31.042 7.058,26.512 C4.126,24.637 1.991,21.744 1.067,18.387 C-1.000,10.889 3.405,3.133 10.905,1.066 C18.405,-1.000 26.160,3.406 28.226,10.904 C34.367,11.612 39.000,16.813 38.995,22.993 C38.990,29.710 33.541,35.151 26.824,35.146 ZM15.294,37.708 C17.956,37.717 20.431,36.341 21.827,34.074 C21.799,34.062 21.771,34.045 21.743,34.032 C21.513,33.926 21.285,33.810 21.060,33.690 L20.858,33.578 C20.602,33.434 20.349,33.281 20.101,33.116 C18.409,31.988 17.026,30.457 16.076,28.662 C15.603,28.713 15.128,28.740 14.654,28.742 C12.395,28.759 10.169,28.212 8.177,27.147 C7.798,28.074 7.604,29.067 7.607,30.069 C7.621,34.301 11.062,37.721 15.294,37.708 ZM27.104,11.635 C25.711,5.892 20.569,1.846 14.657,1.844 C7.582,1.842 1.844,7.574 1.842,14.649 C1.842,21.724 7.578,27.460 14.654,27.460 C15.216,27.462 15.778,27.423 16.335,27.347 L16.359,27.343 C16.658,27.305 16.956,27.255 17.253,27.195 C18.160,27.009 19.044,26.723 19.888,26.342 C20.633,26.012 21.342,25.606 22.006,25.132 C25.425,22.737 27.462,18.824 27.465,14.649 C27.467,13.635 27.346,12.622 27.104,11.635 ZM28.535,12.237 C29.474,17.612 27.219,23.047 22.750,26.179 L22.746,26.179 C22.014,26.700 21.232,27.147 20.412,27.513 C20.128,27.640 19.841,27.753 19.552,27.861 C19.462,27.895 19.373,27.924 19.283,27.956 C19.076,28.027 18.867,28.098 18.656,28.158 C18.561,28.186 18.465,28.215 18.369,28.242 C18.134,28.304 17.897,28.363 17.660,28.414 C17.598,28.427 17.540,28.444 17.476,28.456 L17.431,28.466 C17.447,28.493 17.465,28.520 17.482,28.549 C17.664,28.856 17.861,29.152 18.073,29.439 C18.093,29.466 18.112,29.496 18.133,29.523 C18.354,29.814 18.589,30.094 18.838,30.360 C18.885,30.413 18.932,30.463 18.981,30.515 C19.229,30.772 19.489,31.019 19.761,31.252 C19.810,31.294 19.861,31.332 19.911,31.374 C20.199,31.616 20.499,31.841 20.811,32.050 C21.483,32.500 22.204,32.870 22.962,33.155 C24.194,33.628 25.504,33.869 26.824,33.864 C32.155,33.850 36.691,29.980 37.542,24.718 C38.502,18.784 34.469,13.197 28.535,12.237 ZM33.870,22.335 L36.433,22.335 L36.433,23.617 L33.870,23.617 L33.870,22.335 ZM32.605,18.901 L34.824,17.620 L35.464,18.727 L33.245,20.009 L32.605,18.901 ZM29.793,29.400 L30.903,28.760 L32.184,30.980 L31.074,31.620 L29.793,29.400 ZM29.792,16.556 L31.072,14.336 L32.182,14.976 L30.901,17.196 L29.792,16.556 ZM35.465,27.228 L34.824,28.337 L32.606,27.057 L33.246,25.948 L35.465,27.228 ZM26.184,30.021 L27.465,30.021 L27.465,32.584 L26.184,32.584 L26.184,30.021 ZM21.464,30.976 L22.745,28.757 L23.855,29.399 L22.574,31.618 L21.464,30.976 ZM21.065,24.226 C20.208,24.806 19.274,25.265 18.291,25.590 L18.287,25.590 C17.116,25.983 15.889,26.181 14.654,26.179 C13.741,26.180 12.832,26.069 11.946,25.850 L11.941,25.850 C10.935,25.611 9.968,25.233 9.065,24.729 L9.063,24.730 C7.459,23.839 6.090,22.582 5.070,21.058 C1.528,15.765 2.947,8.606 8.240,5.065 C13.532,1.523 20.693,2.942 24.235,8.233 C27.776,13.525 26.357,20.685 21.065,24.226 ZM14.647,4.394 C8.987,4.399 4.401,8.989 4.405,14.649 C4.412,18.373 6.435,21.801 9.690,23.609 C10.493,24.058 11.353,24.396 12.247,24.608 L12.255,24.608 C14.116,25.057 16.067,24.974 17.885,24.372 L17.889,24.372 C18.761,24.084 19.590,23.677 20.350,23.162 C23.197,21.258 24.905,18.061 24.902,14.635 C24.899,8.977 20.307,4.390 14.647,4.394 ZM17.216,21.694 L12.091,21.694 C11.738,21.694 11.451,21.407 11.451,21.056 C11.451,20.701 11.738,20.415 12.091,20.415 L14.013,20.415 L14.013,9.791 L12.224,11.580 C11.976,11.819 11.582,11.819 11.334,11.580 C11.080,11.334 11.072,10.930 11.318,10.673 L14.201,7.792 C14.321,7.672 14.484,7.603 14.653,7.603 C15.007,7.603 15.294,7.890 15.294,8.246 L15.294,20.415 L17.216,20.415 C17.570,20.415 17.856,20.701 17.856,21.056 C17.856,21.407 17.570,21.694 17.216,21.694 ZM15.294,35.146 C16.085,35.149 16.865,34.964 17.572,34.611 L18.143,35.758 C17.259,36.201 16.283,36.430 15.294,36.427 C11.758,36.424 8.892,33.558 8.888,30.021 L10.170,30.021 C10.173,32.849 12.465,35.142 15.294,35.146 Z"/>
+                                </svg>
+
+                                <p class="hero__advantage-info">№1 Для избавления<br>от любого типа грибка</p>
+                            </div>
+
+                            <div class="hero__advantage-block">
+                                <svg class="hero__advantage-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="41px">
+                                    <path fill-rule="evenodd"  fill="rgb(163, 172, 181)" d="M24.086,29.445 C23.749,29.445 23.475,29.176 23.475,28.845 C23.475,28.511 23.749,28.245 24.086,28.245 C24.468,28.245 24.780,27.939 24.780,27.561 L24.780,23.768 C24.780,22.773 24.218,21.879 23.315,21.434 L18.373,19.000 C17.498,18.571 16.954,17.704 16.954,16.743 L16.954,15.429 C16.828,15.513 16.699,15.592 16.566,15.667 C16.470,15.722 16.365,15.749 16.261,15.749 C16.051,15.749 15.846,15.641 15.733,15.448 C15.564,15.161 15.664,14.793 15.955,14.628 C17.778,13.588 18.911,11.657 18.911,9.587 L18.911,5.737 C18.911,3.236 16.259,1.201 13.000,1.201 C9.741,1.201 7.089,3.236 7.089,5.737 L7.089,9.587 C7.089,11.657 8.221,13.588 10.043,14.626 C10.334,14.792 10.434,15.161 10.265,15.447 C10.152,15.639 9.947,15.747 9.736,15.747 C9.633,15.747 9.528,15.720 9.431,15.665 C9.300,15.591 9.171,15.513 9.045,15.429 L9.045,16.743 C9.045,17.704 8.502,18.571 7.627,19.000 L2.685,21.434 C1.782,21.879 1.220,22.773 1.220,23.768 L1.220,27.561 C1.220,27.939 1.532,28.245 1.914,28.245 C2.251,28.245 2.524,28.511 2.524,28.845 C2.524,29.176 2.251,29.445 1.914,29.445 C0.859,29.445 -0.000,28.599 -0.000,27.561 L-0.000,23.768 C-0.000,22.315 0.820,21.009 2.140,20.360 L7.081,17.927 C7.540,17.701 7.825,17.247 7.825,16.743 L7.825,14.414 C6.589,13.125 5.869,11.402 5.869,9.587 L5.869,5.737 C5.869,2.572 9.068,0.000 13.000,0.000 C16.932,0.000 20.131,2.572 20.131,5.737 L20.131,9.587 C20.131,11.402 19.411,13.125 18.175,14.414 L18.175,16.743 C18.175,17.247 18.460,17.701 18.919,17.927 L23.860,20.360 C25.180,21.009 26.000,22.315 26.000,23.768 L26.000,27.561 C26.000,28.599 25.141,29.445 24.086,29.445 ZM10.082,30.414 L12.330,32.626 L16.109,28.906 C16.347,28.673 16.734,28.673 16.972,28.906 C17.210,29.141 17.210,29.522 16.972,29.756 L12.762,33.901 C12.643,34.017 12.486,34.078 12.330,34.078 C12.174,34.078 12.018,34.017 11.899,33.901 L9.220,31.264 C8.981,31.028 8.981,30.648 9.220,30.414 C9.458,30.179 9.844,30.179 10.082,30.414 ZM4.184,25.482 C4.188,25.482 4.193,25.482 4.197,25.482 C4.528,25.482 4.799,25.742 4.807,26.067 C4.807,26.090 4.872,28.296 5.957,31.093 C6.927,33.592 8.932,37.081 13.000,39.688 C17.068,37.081 19.073,33.592 20.043,31.093 C20.847,29.022 21.091,27.274 21.163,26.499 L13.000,23.703 L6.870,25.802 C6.552,25.911 6.204,25.745 6.093,25.432 C5.983,25.120 6.151,24.777 6.469,24.668 L12.800,22.502 C12.929,22.456 13.071,22.456 13.201,22.502 L22.004,25.515 C22.254,25.601 22.419,25.834 22.413,26.094 C22.411,26.192 22.349,28.492 21.201,31.475 C20.141,34.226 17.914,38.096 13.322,40.908 C13.224,40.970 13.112,40.999 13.000,40.999 C12.888,40.999 12.776,40.970 12.678,40.908 C8.086,38.096 5.859,34.226 4.799,31.476 C3.651,28.492 3.589,26.192 3.587,26.094 C3.580,25.763 3.847,25.489 4.184,25.482 Z"/>
+                                </svg>
+
+                                <p class="hero__advantage-info">Рекомендован<br>дерматологами </p>
+                            </div>
+
+                            <div class="hero__advantage-block">
+                                <svg class="hero__advantage-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40px" height="35px">
+                                    <path fill-rule="evenodd"  fill="rgb(163, 172, 181)" d="M39.812,32.288 L38.233,26.786 C38.195,26.673 38.120,26.561 38.045,26.486 C37.068,23.509 34.662,21.210 31.616,20.420 L31.165,20.345 C30.489,20.156 29.737,20.381 29.248,20.947 C27.594,22.832 25.489,22.982 23.271,22.982 C21.053,22.982 18.947,22.832 17.293,20.947 C16.804,20.381 16.053,20.156 15.376,20.345 L14.925,20.457 C12.632,21.062 10.677,22.528 9.436,24.488 L4.699,24.488 C4.662,24.488 4.662,24.488 4.624,24.452 C4.624,24.414 4.586,24.375 4.586,24.300 L5.564,20.797 C6.428,18.046 8.083,17.216 11.316,16.389 C11.466,16.350 11.579,16.275 11.654,16.200 C11.917,16.427 12.218,16.615 12.519,16.765 C12.632,16.840 12.744,16.840 12.857,16.840 C13.120,16.840 13.383,16.690 13.534,16.427 C13.722,16.050 13.571,15.598 13.195,15.409 C11.466,14.505 10.225,11.944 10.225,9.304 C10.225,6.970 12.143,5.048 14.474,5.048 C14.925,5.048 15.338,5.124 15.752,5.237 C15.338,6.255 15.113,7.348 15.113,8.515 C15.113,14.957 18.985,20.381 23.571,20.381 C28.083,20.381 32.068,14.845 32.068,8.515 C32.068,3.805 28.271,0.000 23.571,0.000 C20.601,0.000 17.970,1.544 16.466,3.880 C15.827,3.655 15.150,3.542 14.474,3.542 C12.444,3.542 10.639,4.634 9.624,6.255 C9.549,6.178 9.474,6.141 9.398,6.103 C8.835,5.803 8.271,5.689 7.632,5.689 C5.526,5.650 3.835,7.348 3.835,9.456 C3.835,10.662 4.173,11.792 4.699,12.697 C2.970,13.149 1.428,13.827 0.714,16.124 L0.113,18.310 C-0.000,18.687 0.075,19.102 0.301,19.403 C0.526,19.742 0.940,19.929 1.353,19.929 L4.248,19.929 C4.210,20.081 4.135,20.231 4.098,20.381 L3.120,23.923 C2.970,24.414 3.083,24.941 3.421,25.356 C3.722,25.769 4.173,25.996 4.699,25.996 L8.684,25.996 C8.571,26.258 8.496,26.523 8.421,26.786 L6.842,32.325 C6.692,32.965 6.804,33.643 7.218,34.170 C7.632,34.698 8.233,34.999 8.872,34.999 L31.428,34.999 L32.707,34.999 L37.782,34.999 C38.421,34.999 39.060,34.698 39.436,34.170 C39.850,33.643 40.000,32.965 39.812,32.288 ZM17.368,5.349 C17.406,5.313 17.444,5.274 17.481,5.199 C17.519,5.161 17.519,5.085 17.556,5.048 C18.722,2.938 20.977,1.507 23.571,1.507 C26.692,1.507 29.323,3.578 30.225,6.406 C28.910,6.668 27.519,6.141 26.692,5.011 C26.428,4.671 25.977,4.595 25.639,4.859 C25.489,4.973 25.413,5.085 25.376,5.237 C25.338,5.274 25.338,5.313 25.301,5.349 C24.248,7.497 20.714,8.402 16.692,7.609 C16.804,6.820 17.030,6.066 17.368,5.349 ZM19.474,9.381 C22.481,9.381 24.962,8.438 26.241,6.668 C27.180,7.497 28.346,7.950 29.586,7.950 C29.887,7.950 30.225,7.911 30.526,7.837 C30.564,8.063 30.564,8.250 30.564,8.477 C30.564,14.015 27.293,18.873 23.571,18.873 C20.000,18.873 16.880,14.392 16.616,9.117 C17.594,9.304 18.571,9.381 19.474,9.381 ZM1.654,18.422 L2.180,16.540 C2.632,14.994 3.571,14.542 5.451,14.090 C5.564,14.053 5.677,14.015 5.752,13.940 C5.940,14.090 6.090,14.203 6.316,14.318 C6.428,14.392 6.541,14.392 6.654,14.392 C6.917,14.392 7.180,14.242 7.331,13.978 C7.519,13.601 7.368,13.149 7.030,12.960 C6.053,12.433 5.338,10.962 5.338,9.456 C5.338,8.175 6.353,7.158 7.632,7.158 C8.045,7.158 8.383,7.233 8.722,7.423 C8.835,7.460 8.910,7.497 9.022,7.497 C8.835,8.063 8.722,8.665 8.722,9.304 C8.722,11.453 9.436,13.563 10.564,15.032 C8.308,15.598 6.316,16.350 5.000,18.422 L1.654,18.422 L1.654,18.422 ZM38.271,33.268 C38.195,33.343 38.045,33.493 37.782,33.493 L32.707,33.493 L31.428,33.493 L8.872,33.493 C8.609,33.493 8.459,33.343 8.383,33.268 C8.271,33.117 8.233,32.890 8.271,32.739 L9.850,27.240 C10.601,24.639 12.669,22.604 15.301,21.927 L15.752,21.814 C15.865,21.776 16.053,21.852 16.165,21.965 C18.233,24.340 20.789,24.527 23.271,24.527 C25.752,24.527 28.308,24.340 30.376,21.965 C30.489,21.852 30.639,21.776 30.827,21.814 L31.278,21.927 C33.872,22.604 35.977,24.639 36.729,27.240 L37.406,29.575 C37.444,29.687 37.481,29.762 37.556,29.839 L38.383,32.702 C38.421,32.890 38.383,33.117 38.271,33.268 Z"/>
+                                </svg>
+
+                                <p class="hero__advantage-info">13000+ довольных<br>клиентов за 2018 год</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col hero__information-col">
+                        <div class="hero__information">
+                            <div class="hero__information-arrow">
+                                <img src="assets/img/hero-arrow.png" alt="">
+                            </div>
+                            
+                            <h1 class="hero__information-title">Комплексное избавление от грибка —
+                                <span class="hero__information-title--size">
+                                    <span class="hero__information-title--orange">изнутри</span> и <span class="hero__information-title--green">снаружи</span>
+                                </span>
+                            </h1>
+
+                            <div class="hero__information-block">
+                                <div class="hero__information-circle">
+                                    <p class="hero__information-number">2 в 1</p>
+                                </div>
+
+                                <p class="hero__information-text">Комплекс Микоцин <span class="hero__information-text--color">устраняет зуд, неприятный запах</span> и возвращает эстетичный вид</p>
+                            </div>
+
+                            <div class="hero__information-block">
+                                <div class="hero__information-circle">
+                                    <p class="hero__information-number">1</p>
+                                </div>
+
+                                <p class="hero__information-text"><span class="hero__information-text--color hero__information-text--border-orange">Таблетки</span> Микоцин <span class="hero__information-text--color">уничтожают все виды грибка</span> на ногтях и коже</p>
+                            </div>
+
+                            <div class="hero__information-block">
+                                <div class="hero__information-circle">
+                                    <p class="hero__information-number">2</p>
+                                </div>
+
+                                <p class="hero__information-text"><span class="hero__information-text--color hero__information-text--border-green">Гель</span> Микоцин <span class="hero__information-text--color">восстанавливает кожу</span> и создает на ней <span class="hero__information-text--color">защитный барьер</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col hero__form-col">
+                        <form action class="hero__form form">
+                            <div class="form__content">
+                                <div class="form__delivery">
+                                    <svg class="form__delivery-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27px" height="15px">
+                                        <path fill-rule="evenodd"  fill="rgb(253, 117, 50)" d="M26.337,13.239 L24.857,13.239 C24.630,14.248 23.747,15.000 22.686,15.000 C21.625,15.000 20.742,14.242 20.515,13.239 L19.455,13.239 L12.572,13.239 C12.346,14.248 11.462,15.000 10.401,15.000 C9.341,15.000 8.451,14.248 8.230,13.239 C8.214,13.239 8.203,13.239 8.186,13.239 L6.214,13.239 C5.850,13.239 5.551,12.936 5.551,12.566 L5.551,10.221 L2.972,10.221 C2.607,10.221 2.309,9.917 2.309,9.548 C2.309,9.177 2.607,8.873 2.972,8.873 L6.159,8.873 C6.170,8.873 6.176,8.873 6.187,8.873 C6.198,8.873 6.209,8.873 6.220,8.873 C6.584,8.873 6.883,9.177 6.883,9.548 L6.883,11.898 L8.192,11.898 C8.241,11.898 8.286,11.904 8.335,11.914 C8.661,11.079 9.462,10.484 10.401,10.484 C11.335,10.484 12.136,11.073 12.467,11.904 C12.495,11.898 12.522,11.898 12.550,11.898 L18.792,11.898 L18.792,2.872 L18.792,1.346 L6.883,1.346 L6.883,3.691 C6.883,4.061 6.584,4.364 6.220,4.364 C6.214,4.364 6.214,4.364 6.214,4.364 C6.209,4.364 6.203,4.364 6.198,4.364 L2.972,4.364 C2.607,4.364 2.309,4.061 2.309,3.691 C2.309,3.321 2.607,3.018 2.972,3.018 L5.551,3.018 L5.551,0.673 C5.551,0.303 5.850,-0.001 6.214,-0.001 L19.449,-0.001 C19.814,-0.001 20.112,0.303 20.112,0.673 L20.112,2.199 L22.890,2.199 C24.045,2.199 25.083,2.642 25.812,3.445 C26.586,4.296 27.000,5.520 27.000,6.973 L27.000,12.566 C27.000,12.936 26.702,13.239 26.337,13.239 ZM10.401,11.830 C9.904,11.830 9.501,12.241 9.501,12.745 C9.501,13.250 9.904,13.659 10.401,13.659 C10.898,13.659 11.302,13.250 11.302,12.745 C11.302,12.241 10.898,11.830 10.401,11.830 ZM22.686,13.659 C23.178,13.659 23.581,13.250 23.586,12.745 C23.586,12.241 23.183,11.830 22.686,11.830 C22.189,11.830 21.786,12.241 21.786,12.745 C21.786,13.250 22.189,13.659 22.686,13.659 ZM25.674,6.978 C25.674,4.829 24.636,3.545 22.896,3.545 L20.117,3.545 L20.117,11.898 L20.626,11.898 C20.957,11.068 21.758,10.484 22.686,10.484 C23.614,10.484 24.415,11.073 24.746,11.898 L25.674,11.898 L25.674,6.978 ZM11.467,5.419 C11.208,5.155 11.208,4.729 11.467,4.465 C11.727,4.201 12.147,4.201 12.406,4.465 L14.030,6.115 L14.036,6.120 C14.047,6.137 14.064,6.148 14.075,6.164 C14.080,6.176 14.086,6.182 14.091,6.193 C14.102,6.204 14.108,6.209 14.113,6.221 C14.119,6.233 14.124,6.243 14.130,6.255 C14.135,6.266 14.141,6.271 14.146,6.283 C14.152,6.294 14.157,6.305 14.163,6.316 C14.163,6.327 14.168,6.334 14.174,6.344 C14.180,6.356 14.180,6.367 14.185,6.378 C14.190,6.384 14.190,6.395 14.196,6.406 C14.196,6.417 14.201,6.429 14.201,6.440 C14.201,6.450 14.207,6.462 14.207,6.474 C14.207,6.490 14.213,6.501 14.213,6.512 C14.218,6.524 14.218,6.529 14.218,6.541 C14.224,6.586 14.224,6.630 14.218,6.675 C14.218,6.687 14.213,6.692 14.213,6.704 C14.213,6.720 14.207,6.731 14.207,6.743 C14.207,6.754 14.201,6.766 14.201,6.776 C14.201,6.788 14.201,6.799 14.196,6.810 C14.190,6.816 14.190,6.827 14.185,6.838 C14.180,6.849 14.180,6.861 14.174,6.872 C14.174,6.882 14.168,6.888 14.163,6.900 C14.157,6.911 14.152,6.922 14.146,6.933 C14.141,6.945 14.135,6.950 14.130,6.962 C14.124,6.973 14.119,6.984 14.113,6.995 C14.102,7.007 14.097,7.012 14.091,7.023 C14.086,7.034 14.080,7.040 14.075,7.051 C14.064,7.068 14.047,7.079 14.036,7.096 L14.030,7.102 L12.323,8.835 C12.191,8.963 12.025,9.032 11.854,9.032 C11.683,9.032 11.512,8.963 11.384,8.835 C11.125,8.571 11.125,8.145 11.384,7.881 L11.953,7.265 L0.663,7.265 C0.298,7.265 -0.000,6.962 -0.000,6.591 C-0.000,6.221 0.298,5.918 0.663,5.918 L11.959,5.918 L11.467,5.419 Z"/>
+                                    </svg>
+
+                                    <p class="form__delivery-info">Бесплатно</p>
+                                </div>
+
+                                <h2 class="form__title">Успейте заказать со скидкой <br><span class="form__title--color">до 10.09.2018</span></h2>
+
+                                <div class="form__price">
+                                    <div class="form__price-old">
+                                        <p class="form__price-old-text">старая цена</p>
+
+                                        <p class="form__price-old-number">918 ₽</p>
+                                    </div>
+
+                                    <div class="form__price-new">
+                                        <p class="form__price-new-text">новая цена</p>
+
+                                        <p class="form__price-new-number">459 ₽</p>
+                                    </div>
+                                </div>
+
+                                <div class="form__arrow">
+                                    <img src="assets/img/hero-form-arrow.png" alt="">
+                                </div>
+
+                                <div class="form__block">
+                                    <label for class="form__field">
+                                        <input type="text" class="form__input form__input-name" placeholder="Имя" id="form__name">
+                                    </label>
+
+                                    <label for class="form__field">
+                                        <input type="text" class="form__input form__input-phone" placeholder="Телефон" id="form__phone">
+                                    </label>
+                                </div>
+
+                                <button class="form__button" id="form__button">
+                                    <p class="form__button-text">Заказать</p>
+
+                                    <p class="form__button-text form__button-text--size">со скидкой</p>
+                                </button>
+
+                                <p class="form__text">Осталось <span class="form__text--color">10</span> упаковок со скидкой</p>
+
+                                <div class="form__info-protect">
+                                    <svg class="form__info-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19px" height="20px">
+                                        <path fill-rule="evenodd"  fill="rgb(255, 107, 0)" d="M9.753,19.963 C9.671,19.986 9.585,20.000 9.500,20.000 C9.414,20.000 9.329,19.986 9.247,19.963 C0.000,17.068 0.145,10.207 0.251,5.199 C0.263,4.663 0.273,4.150 0.273,3.661 C0.273,3.276 0.619,2.966 1.046,2.966 C4.350,2.966 6.865,2.107 8.961,0.264 C9.261,0.002 9.738,0.000 10.038,0.264 C12.135,2.107 14.651,2.966 17.955,2.966 C18.382,2.966 18.727,3.276 18.727,3.661 C18.727,4.150 18.738,4.661 18.750,5.199 C18.855,10.206 19.000,17.068 9.753,19.963 ZM17.205,5.226 C17.198,4.923 17.192,4.630 17.188,4.345 C14.093,4.227 11.618,3.380 9.500,1.715 C7.382,3.380 4.907,4.227 1.813,4.345 C1.809,4.630 1.802,4.923 1.796,5.226 C1.690,10.261 1.570,15.959 9.500,18.562 C17.431,15.959 17.311,10.261 17.205,5.226 ZM8.978,12.457 C8.827,12.594 8.629,12.659 8.432,12.659 C8.234,12.659 8.036,12.594 7.885,12.457 L5.748,10.528 C5.446,10.254 5.446,9.815 5.748,9.541 C6.049,9.267 6.539,9.267 6.840,9.541 L8.432,10.977 L12.160,7.607 C12.462,7.337 12.951,7.337 13.253,7.607 C13.554,7.884 13.554,8.323 13.253,8.595 L8.978,12.457 Z"/>
+                                    </svg>
+
+                                    <p class="form__info-text">Ваши данные защищены!</p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero__bottom-img">
+            <img src="assets/img/hero-bottom-img.png" alt="">
+        </div>
+    </section>
+
+    <section class="section danger">
+        <div class="container">
+            <div class="section__info">
+                <div class="section__logo">
+                    <img src="assets/img/logo.png" alt="">
+                </div>
+
+                <h2 class="section__title">Грибок – это опасная инфекция</h2>
+
+                <p class="section__subtitle">которая угрожает вам и вашим близким, ведь с каждым днем грибок приводит к:</p>
+            </div>
+
+            <div class="row danger__row">
+                <div class="col danger__block-col">
+                    <div class="danger__block">
+                        <div class="danger__block-subject">
+                            <div class="danger__block-collage">
+                                <div class="danger__block-circle">1</div>
+
+                                <svg class="danger__block-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="179px" height="120px">
+                                    <image  x="0px" y="0px" width="179px" height="120px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAALMAAAB4CAMAAACO5TO2AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACu1BMVEXsmmr////smmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmrsmmr///8LORYxAAAA53RSTlMAAAECGS40OzI3MD1IRHN2ZlRDQD4jEAxle4GNsd3w8u77/f703reMTikIEyViia3b6r6FQhUvwuX86KNMCw8ifOPGDgkecbbgP5jNyE0aOJ/Y85M2y/jAXAMdgMPn1OLWwbPP7elqLdekh3dnMyASBlpfa5yOBKn68eYWChxXldMhU6X57MV1FxjST8lgJJ73eQdkq37f73BLtKcfPCpdlCu7DQURkJfcnbpS9drh0VGgg6ExiJH2zl4sub/EqoasbGNyYetvNTloRn+oKL1pi5sUG5ltR3q8OkFFksy4ruRbVcrV2ce6pDL5AAAAAWJLR0QB/wIt3gAAAAd0SU1FB+MJAhYoKfxZgHIAAAbHSURBVHja1dz9WxRFHADwbU8EzBeQvCPFQ+5Ag9NQU5SX4yBBRAkREL0UyeRSUTlUQkCUUF5NUUHF95KXshQztehFLTUze7EyzbKy9+7f6BGY2dnldnd2D5nZ7y88D3ffmc+zNzc7+93ZYxiF8ZggcPNYpR2J968mB8ese2gc5OU12NvHd4j340OHDR/h5z8y4IlReh2VZp1hcOCTo8cEjTUGjwsOMbm6w2Tu+esKDRs/IfCp8Ah6zJaJk56OnOxymXupYmGeMvWZadPJm6OmjZ4x0xjtwo7omNg4K0FzvC0hMRify8Wzk2aRMOuSkmenzFED7onEhKQBNltS585TdYTRSHsOk90P5vT5GQsyPQV3R0xWNs5c4qmZTfJbOK5fwN2Rs2jxozbbn1+y1CytMOcuW5CXOzPvheUvLloRli87pZgdLz1Ks3Vl7CoxQ3R+2NLVBWvWjlxXON3ZM06LDM5028qA9Rs2Fqflu1wS4//lkkdlDtg0U6TP0rLygvDNFVJtFEUZtmytfCVEpIUxVTrJ/tWZt22vdn98a2rr/APqMZtq8M/Y4RYdPHdUf5vTXw1111Pozl3ejUqbc25Ic9eWcbfY+VGV2Zlau6dvJzU79/oqOp9x0bRxnjt2c7+Ziwr3TenTfN7OwEanJwvkiv2OvjPQAV93w1q52d68TDg9tRw4uNLpgbc3Dh1u6aM+ctRzM2spNgqanRJ7zOI5uDuOJyQK0Xte89i8/rCgzZbXT5QoakE6kpqFh8TV2uaRuTFBeA6Z7N+u/EssHWuFk3bmVg/M3uMFc3LthHo1E49M2PcLRojpsFpzxzb+dGHe8UZ9u5LrbvxIXyKYQ8zo+MPvMv7NXF4zJ99qYJXVChSpWwUD5JAKc/jbvCbKx1dZldY3lMWp03z0XKXmEr809NOq7pzmVF6TURhsMf8LX6vQvLgMzTYOt6mpIymO7DM89I56Bea2bTFo7jtn1dW+VMS7PHRYIb75XB6aeT5bZb1OTZx18NTJmOaKSnQoO4oN7ACaGdtUHvoCljn5PTRn2WJWdV1UXbDvo/2HzMcwh29HMro+sBWpr+WqjQ95s95HsuaGj9HV/cWJD/830GbGOx9FD5Hp0nkJPYFejmKJmBlLF/ph2yS77LiMnkgi9T3/HXgzw4xFj3SRRJfpu5E31nzSSyZiZj5FKDHihb30glLufaYr8GKEiLnkCIKeIfaujnPIKOq6yl2gEjEzzD6IyfcReUv7NWTtaaxDXiFkZsBIrbkg1uVnyAl7zgj0FVJm3aZuTIuPWJcBCzny9c95tTdSZoZ5uIY33hDrsuI8t8gI3RjPe42cmbnkKvtC9Dx4E6l57ueTSZrbHcdE1xtfruLIWcKSFkFz9/1n911WRXKXNcsNwldJmhkxs/UrbiV1xuIuhzqzLjWMGxnZbnNoM7MNKRz5a/c5tJmZg9zN9U69+xzazN9wtx2CvURyKDOX3OJGxkGxHLrM7LfcAnS1aA5d5sZWeNLu9GLFcugycxXr04ERojlUmfXchVfQFvEcmsy67yC5PE4ihybziZPQ/L1dG2Z2LxzNubelcmgycwuNXZI5FJlPwZJRyg8aMeuDwNxc7Se9f4IesxesDixsk86hx3wHDo04mRxqzOvgdWuKXiaHFjN7F9wZNg23y+TQYrbDnUEhUXI5lJjZSXBurpTNocSsywATneNHrZiPwvrACr1sDh3mkntwaKyXz6HDzP4EyLUNWjH/DKpd5gK5/UW0mJvugG+gcTNGDhVmaycYGrGyO/toMV+F38CbODk0mNliQM6T35BIidkKd4fdMuDk0GC+Aa8DZ2Pl0GC+Akqhofe1YtbBTRq58kODEjMDa6FB7VoxV8FbPnV4ORSYfcCarvoXzZjrwGHOxNl9TYf5V2D+DfN5J/LmpFpgfoCZQ95sBUWC6Ls4jz5QYe4Am7HNGGcUSsy+YGgkYszOdJjZa+DMfbJIM+bfwXGOxM0hbmYuAnMW1tNHNJgj4PPC93BziJuT/gDTxp+aMVeAUrn5L82YLaCGaz6mHXMOWNUla8ZcCI5zKd5zoTSYJ4LdDznaOc6DwNhoacPNIW6+D07dDowLWErMsO71N3YOcTO8Y/yPHTeHuBke55omzZjjYH1RO8d5KDDPwXuonAbzMGCOxnt0nwazD7gtEXIbN4e4+SiYn3PicXOImwtBta7LphlzBfjVHdNgzZhngQqjaQtuDnGzAT5UPEQz5vYWYG7GzSFuZv8F5jGaMTMPgPk/zdQ3mDXAfB1rwUGF+Swwn8b6yRIqzIPg1vLjmjFHwOehsYoyFJj/B8/P8IAC23qMAAAAAElFTkSuQmCC" />
+                                </svg>
+
+                                <div class="danger__block-img">
+                                    <img src="assets/img/danger-block-1.jpg" alt="">
+                                </div>
+                            </div>
+
+                            <h3 class="danger__block-title">Сложным формам аллергии</h3>
+                        </div>
+
+                        <p class="danger__block-info">Может появится сильная реакция<br>на на привычную пищу, одежду,<br>средства гигиены</p>
+                    </div>
+                </div>
+
+                <div class="col danger__block-col">
+                    <div class="danger__block">
+                        <div class="danger__block-subject">
+                            <div class="danger__block-collage">
+                                <div class="danger__block-circle danger__block-circle--color-2">2</div>
+
+                                <svg class="danger__block-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="179px" height="120px">
+                                    <image  x="0px" y="0px" width="179px" height="120px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAALMAAAB4CAMAAACO5TO2AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACu1BMVEXkdkP////kdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkPkdkP///9KKW9MAAAA53RSTlMAAAECGS40OzI3MD1IRHN2ZlRDQD4jEAxle4GNsd3w8u77/f703reMTikIEyViia3b6r6FQhUvwuX86KNMCw8ifOPGDgkecbbgP5jNyE0aOJ/Y85M2y/jAXAMdgMPn1OLWwbPP7elqLdekh3dnMyASBlpfa5yOBKn68eYWChxXldMhU6X57MV1FxjST8lgJJ73eQdkq37f73BLtKcfPCpdlCu7DQURkJfcnbpS9drh0VGgg6ExiJH2zl4sub/EqoasbGNyYetvNTloRn+oKL1pi5sUG5ltR3q8OkFFksy4ruRbVcrV2ce6pDL5AAAAAWJLR0QB/wIt3gAAAAd0SU1FB+MJAhYoBleIvSsAAAbhSURBVHja1dz9XxRFHAfwvT0RMB9AEkjxkDvQ8DTUFAVEIEF8oPMZJUUyuVBUDpXw6dRQQCHFZ/G5VChLMVKLHtRSM7MHe9IsK3vu/o24O2d2du/2du5ud7/r5xd+2Z17v4a5mdmZ2WMYlcKq9UGBR+80dgkJ6RoaFt4t9LHuPXr2iojsHfV4n2g9NM27N6Zr7BN9+8X1N8QPiE8wOlwxmtx/HYlJAwfFPpk8GFrJxTxk6FMpwxwO00OqWEzDRzw9chS0lmFSR/YdPcaQ5qBOWnrG2ExA8Lis7Jx4ei6XZ4aOh/Dqc/Mm5E8MBOxOTnauymLzpMlTAqphMgXPqse2TJ02fUawYFfSZ85Soy9hcyNmD5AF7ErhnLlKi4uemzff5FthKl4wvaR4TMnzC1+YsyipVLJLMVlfVFKcWZaxWMyQVpo0f0n50mW9l1eMsrnbaWWMzZJVFrVi5aqqglKHw0f7f6laKXLU6jEin7lm7bry5PV2XzdXpsZs2Ljp5QSREvrVKDG+b95S671+6+q3RkZtoyylIXJao1d0/OQ+costryR6+6TE7TtCm/wty7aywFtZhp2yjo+2SfW7PD+kbvvu8ADHsz2rpnhj75VNXFmxb7hH8SXbY5tswUyQ7futnj3QgXB5mnXR3gXC7qn5wMEyW/AlHzrc7KE+cjT4cllzlUFQ7PCMY2ZZaoNhjmfnCNG7Xg261BWHBWU2v3ZCzt40d6+wShwnTwVVYlO2cAwZFtkio9iVZcJOe8bGIEoLHSjok+sH0XbE/qRov6CFGA8HWlTrZn53YWp8fZvsleyOZZ6gDzEF1v7GvVHMK+b0mw0KPvxbTgoayKEACkl+i1fEuoE1Cj/GnTnLR0/2t4DqiALyv1XbNlKG/lgibBX/C1/v5/1z15J3G3pmKS52ZtY5HrrRny/8qc3p5L1vt6siduYdHjqpgv7O8yXknRdmqUZmmHYrT51HeZt9E9mUrVUxqq4VZo3goS9S3ZT3LnnPgrlqr26y75GfnzCV4pbkLcQdHe9nVapM7swHvF7vQ8nrGz4iZ/eXhqgv7kxoKYnuJnG17TI5gF5JBVr2NneQ/2zfHW3rFXIgSYmGETvTn6zpSh8XWnYSF9Z9DEhmmE8ISrr4wp6lfA13nfGqXA8jgaX6CIEeLXZV63miFXVcA9/B2YcxpWEil7RcJ+aehq3Q4s6gllp3USdyxafEgD2xF7TXGf1qF6Y5TCdijprNkW98ZvevdKXinMMbbupEzPYL3CQjcdU4aCzKZcfaz3Vi5lvEmud+zZCZFusxnZj5i8UceSZ4j0GE1YmZa1K4x5qFMdBOMjoxc+aX3EzqHOxQ4p3sadZPSuJahpoPJdRkDzPbkM+Rv4JmeiV71vNBbnO9DXReJEr2MH/NbTvEh0A7vZOF5urbXMs4CO0UIQvM7DfcBHQJtFOMLDA3ncSDdluIdkYTnS8zt2J9NlZDh298maO5B6+4DdBQUTLPrP8Wk9eNhYaKk3nmE6ex+bsiaKk4mTSzu3FrLv4eWuqDzDNzE40d0FJfZNJ8Bi8Z5f8ATfVFJszRcahvro3QyvlInYQ5BK8OzA5u71NpMmG+g5uGVvo5nZR5OX5uzdfIFFQnZWbvop1hY0+N9M2S5iJ8MighFRorQUZmdijumzdBY6XIyKyfhjo664/QWikyMh/F6wOLNPEN1Embq+/hprECmitJfmhmf0Lk+gZoL635Z7TaZSpX7LSmbGS3ec8d9A00rIf2SpPd5sw21DQyNPDgKkV2m6/hb+AtaDCtma1C5BLlD8AET3aZM/HpsNvwy83SZJf5Jn4OnAAtpjZfRUuhifehxTRkp1mPD2kUgzcNGrKrnvFaaJxCJxPlN9fgLR/4PWJacxia09X+Ak2mNm9F1TwDfpeK1vwrMv8Gv3xLac6tR+YH0GJKdOcoiBYJ0u5qYIJEN6a0osPYJvgRhQ7NMOGoaeSA986Uaoa9jkbu05XQWEo0w/6O6jkFmkrLZphLyKypoxo+15EG4/eF70EradlM7h+o2/gTmkjLZuxoqdz0F7SP1s2Y0Rqu6Ri0jdbNmAvRrI72uDy4m6lA9bzG7/dCoeDMEHT6oVDz9YzTBbWNZq3sVknnPhq6reAPsNTB615/Q0vog3eM/9HIdhVFcD3X7YGmUGcsXl98dOq5OzJP1Na0zld6IHMayE/RBJQwtC2RoJ2zMVI5ivrnQu0cKJdKBVqt61DnlVE5Yke/umPsCk2hzni0wmjU0ClAicTgl4qlXs3TTlqakVm+HxZROuy/yNwPmkKfB8j836MzEC5F5huPzoSjHZnPauFIAV264KPlx6Ep1BmM34fW7KKMIP8DfITtpFhyGfcAAAAASUVORK5CYII=" />
+                                </svg>
+
+                                <div class="danger__block-img">
+                                    <img src="assets/img/danger-block-2.jpg" alt="">
+                                </div>
+                            </div>
+
+                            <h3 class="danger__block-title">Потере ногтя и ампутации пальца</h3>
+                        </div>
+
+                        <p class="danger__block-info">После полного разрушения ногтя<br>грибок распространяется на палец,<br>что приводит к его ампутации</p>
+                    </div>
+                </div>
+
+                <div class="col danger__block-col">
+                    <div class="danger__block">
+                        <div class="danger__block-subject">
+                            <div class="danger__block-collage">
+                                <div class="danger__block-circle danger__block-circle--color-3">3</div>
+
+                                <svg class="danger__block-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="179px" height="120px">
+                                    <image  x="0px" y="0px" width="179px" height="120px"  xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAALMAAAB4CAMAAACO5TO2AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACu1BMVEXsWxn////sWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxnsWxn///97absyAAAA53RSTlMAAAECGS40OzI3MD1IRHN2ZlRDQD4jEAxle4GNsd3w8u77/f703reMTikIEyViia3b6r6FQhUvwuX86KNMCw8ifOPGDgkecbbgP5jNyE0aOJ/Y85M2y/jA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" />
+                                </svg>
+
+                                <div class="danger__block-img">
+                                    <img src="assets/img/danger-block-3.jpg" alt="">
+                                </div>
+                            </div>
+
+                            <h3 class="danger__block-title">Тяжелому поражению внутренних органов</h3>
+                        </div>
+
+                        <p class="danger__block-info">Может привести к повреждениям мозга,<br>слепоте, отказу печени, почек<br>и сердца</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="danger__statistics">
+                <div class="danger__statistics-block">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55px" height="37px">
+                        <defs>
+                            <linearGradient id="PSgrad_0" x1="100%" x2="0%" y1="0%" y2="0%">
+                                <stop offset="0%" stop-color="rgb(255,107,0)" stop-opacity="1" />
+                                <stop offset="100%" stop-color="rgb(166,201,58)" stop-opacity="1" />
+                            </linearGradient>
+                        </defs>
+                        <path fill-rule="evenodd"  fill="rgb(168, 202, 63)" d="M53.854,36.999 L51.565,36.999 C51.564,36.999 51.563,37.000 51.562,37.000 L44.687,37.000 C44.687,37.000 44.686,36.999 44.685,36.999 L37.815,36.999 C37.814,36.999 37.813,37.000 37.812,37.000 L30.937,37.000 C30.937,37.000 30.936,36.999 30.935,36.999 L24.065,36.999 C24.064,36.999 24.063,37.000 24.062,37.000 L17.187,37.000 C17.187,37.000 17.186,36.999 17.185,36.999 L10.312,36.999 L3.437,36.999 L1.146,36.999 C0.513,36.999 -0.000,36.482 -0.000,35.844 C-0.000,35.205 0.513,34.687 1.146,34.687 L2.292,34.687 L2.292,21.969 C2.292,21.329 2.805,20.813 3.437,20.813 L10.312,20.813 C10.945,20.813 11.458,21.329 11.458,21.969 L11.458,34.687 L16.042,34.687 L16.042,10.406 C16.042,9.768 16.555,9.250 17.187,9.250 L24.062,9.250 C24.695,9.250 25.208,9.768 25.208,10.406 L25.208,34.687 L29.792,34.687 L29.792,15.031 C29.792,14.393 30.305,13.875 30.937,13.875 L37.812,13.875 C38.445,13.875 38.958,14.392 38.958,15.031 L38.958,34.687 L43.542,34.687 L43.542,1.156 C43.542,0.518 44.055,-0.000 44.687,-0.000 L51.562,-0.000 C52.195,-0.000 52.708,0.518 52.708,1.156 L52.708,34.687 L53.854,34.687 C54.487,34.687 55.000,35.205 55.000,35.844 C55.000,36.482 54.487,36.999 53.854,36.999 ZM9.167,23.125 L4.583,23.125 L4.583,34.687 L9.167,34.687 L9.167,23.125 ZM22.917,11.562 L18.333,11.562 L18.333,34.687 L22.917,34.687 L22.917,11.562 ZM36.667,16.187 L32.083,16.187 L32.083,34.687 L36.667,34.687 L36.667,16.187 ZM50.417,2.312 L45.833,2.312 L45.833,34.687 L50.417,34.687 L50.417,2.312 Z"/>
+                        <path fill="url(#PSgrad_0)" d="M53.854,36.999 L51.565,36.999 C51.564,36.999 51.563,37.000 51.562,37.000 L44.687,37.000 C44.687,37.000 44.686,36.999 44.685,36.999 L37.815,36.999 C37.814,36.999 37.813,37.000 37.812,37.000 L30.937,37.000 C30.937,37.000 30.936,36.999 30.935,36.999 L24.065,36.999 C24.064,36.999 24.063,37.000 24.062,37.000 L17.187,37.000 C17.187,37.000 17.186,36.999 17.185,36.999 L10.312,36.999 L3.437,36.999 L1.146,36.999 C0.513,36.999 -0.000,36.482 -0.000,35.844 C-0.000,35.205 0.513,34.687 1.146,34.687 L2.292,34.687 L2.292,21.969 C2.292,21.329 2.805,20.813 3.437,20.813 L10.312,20.813 C10.945,20.813 11.458,21.329 11.458,21.969 L11.458,34.687 L16.042,34.687 L16.042,10.406 C16.042,9.768 16.555,9.250 17.187,9.250 L24.062,9.250 C24.695,9.250 25.208,9.768 25.208,10.406 L25.208,34.687 L29.792,34.687 L29.792,15.031 C29.792,14.393 30.305,13.875 30.937,13.875 L37.812,13.875 C38.445,13.875 38.958,14.392 38.958,15.031 L38.958,34.687 L43.542,34.687 L43.542,1.156 C43.542,0.518 44.055,-0.000 44.687,-0.000 L51.562,-0.000 C52.195,-0.000 52.708,0.518 52.708,1.156 L52.708,34.687 L53.854,34.687 C54.487,34.687 55.000,35.205 55.000,35.844 C55.000,36.482 54.487,36.999 53.854,36.999 ZM9.167,23.125 L4.583,23.125 L4.583,34.687 L9.167,34.687 L9.167,23.125 ZM22.917,11.562 L18.333,11.562 L18.333,34.687 L22.917,34.687 L22.917,11.562 ZM36.667,16.187 L32.083,16.187 L32.083,34.687 L36.667,34.687 L36.667,16.187 ZM50.417,2.312 L45.833,2.312 L45.833,34.687 L50.417,34.687 L50.417,2.312 Z"/>
+                    </svg>
+                </div>
+
+
+                <p class="danger__statistics-text"><span class="danger__statistics-text--color">Статистика:</span> каждые 60 секунд врачи диагностируют опасные поражения внутренних органов, вызванные грибком, у 1-го пациент</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section ineffective">
+        <div class="ineffective__top-img">
+            <img src="assets/img/ineffective-top-img.png" alt="">
+        </div>
+
+        <div class="container">
+            <div class="section__info">
+                <div class="section__logo">
+                    <img src="assets/img/logo.png" alt="">
+                </div>
+
+                <h2 class="section__title">Почему большинство средств против грибка малоэффективны</h2>
+            </div>
+
+            <div class="row ineffective__row">
+                <div class="col ineffective__block-col">
+                    <div class="ineffective__block">
+                        <div class="ineffective__block-top">
+                            <div class="ineffective__block-icon">
+                                <svg class="ineffective__block-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70px" height="66px">
+                                    <path fill-rule="evenodd"  fill="rgb(255, 107, 0)" d="M29.494,1.612 C29.394,0.908 29.888,0.256 30.599,0.155 C31.311,0.056 31.968,0.547 32.068,1.251 L34.126,15.667 C34.227,16.371 33.732,17.022 33.022,17.122 C32.960,17.131 32.898,17.135 32.838,17.135 C32.201,17.135 31.644,16.671 31.553,16.027 L29.494,1.612 ZM63.759,6.542 L62.741,7.550 C62.234,8.053 62.234,8.868 62.741,9.371 C63.249,9.873 64.072,9.873 64.580,9.371 L65.597,8.363 L66.615,9.371 C66.869,9.622 67.201,9.748 67.534,9.748 C67.867,9.748 68.199,9.622 68.453,9.371 C68.961,8.868 68.961,8.053 68.453,7.550 L67.436,6.542 L68.454,5.533 C68.961,5.031 68.961,4.215 68.454,3.712 C67.946,3.208 67.123,3.208 66.615,3.712 L65.597,4.720 L64.579,3.712 C64.072,3.208 63.249,3.208 62.741,3.712 C62.233,4.215 62.233,5.031 62.741,5.533 L63.759,6.542 ZM26.042,23.267 C26.298,23.600 26.684,23.773 27.075,23.773 C27.350,23.773 27.628,23.686 27.864,23.507 C28.434,23.074 28.542,22.267 28.106,21.702 L16.631,6.865 C16.194,6.300 15.378,6.193 14.808,6.626 C14.239,7.058 14.131,7.867 14.567,8.431 L26.042,23.267 ZM4.707,11.241 L5.137,11.569 C5.373,11.749 5.652,11.836 5.928,11.836 C6.318,11.836 6.704,11.663 6.960,11.332 C7.397,10.768 7.291,9.960 6.721,9.527 L6.291,9.199 C5.722,8.766 4.906,8.872 4.468,9.436 C4.031,9.999 4.138,10.808 4.707,11.241 ZM3.609,27.201 C2.897,27.106 2.244,27.603 2.150,28.308 C2.055,29.014 2.556,29.660 3.268,29.754 L16.561,31.498 C16.619,31.505 16.677,31.509 16.733,31.509 C17.375,31.509 17.934,31.038 18.020,30.390 C18.114,29.685 17.614,29.038 16.902,28.945 L3.609,27.201 ZM8.944,14.468 L21.579,24.087 C21.816,24.267 22.094,24.354 22.371,24.354 C22.761,24.354 23.146,24.181 23.402,23.851 C23.840,23.287 23.733,22.478 23.164,22.045 L10.528,12.426 C9.959,11.992 9.143,12.099 8.706,12.663 C8.268,13.226 8.375,14.034 8.944,14.468 ZM36.900,17.256 C36.959,17.264 37.018,17.268 37.076,17.268 C37.717,17.268 38.274,16.799 38.363,16.153 L40.354,1.612 C40.450,0.908 39.952,0.259 39.240,0.164 C38.528,0.068 37.874,0.561 37.778,1.265 L35.787,15.807 C35.690,16.513 36.189,17.161 36.900,17.256 ZM66.532,35.454 L48.704,33.116 C47.993,33.024 47.339,33.518 47.245,34.224 C47.151,34.928 47.651,35.576 48.363,35.669 L66.191,38.008 C66.249,38.015 66.306,38.019 66.363,38.019 C67.005,38.019 67.563,37.547 67.650,36.900 C67.744,36.195 67.244,35.548 66.532,35.454 ZM67.656,28.356 C67.563,27.651 66.910,27.155 66.199,27.248 L52.823,28.982 C52.111,29.075 51.610,29.721 51.703,30.426 C51.788,31.074 52.347,31.546 52.990,31.546 C53.046,31.546 53.103,31.542 53.160,31.535 L66.536,29.800 C67.248,29.708 67.750,29.062 67.656,28.356 ZM59.302,12.461 L46.717,22.013 C46.147,22.445 46.039,23.253 46.476,23.818 C46.732,24.150 47.118,24.323 47.509,24.323 C47.784,24.323 48.062,24.237 48.298,24.058 L60.883,14.506 C61.452,14.074 61.560,13.265 61.124,12.701 C60.687,12.136 59.871,12.029 59.302,12.461 ZM55.825,5.615 C56.061,5.794 56.340,5.882 56.616,5.882 C57.006,5.882 57.392,5.709 57.648,5.379 L57.763,5.232 C58.200,4.667 58.094,3.860 57.525,3.426 C56.955,2.992 56.139,3.098 55.702,3.662 L55.587,3.810 C55.149,4.373 55.256,5.181 55.825,5.615 ZM58.139,2.630 C58.375,2.811 58.654,2.898 58.930,2.898 C59.320,2.898 59.705,2.725 59.961,2.395 L60.083,2.240 C60.521,1.676 60.414,0.867 59.845,0.433 C59.276,-0.000 58.460,0.105 58.023,0.668 L57.901,0.825 C57.463,1.388 57.570,2.196 58.139,2.630 ZM42.016,23.432 C42.252,23.612 42.530,23.698 42.807,23.698 C43.197,23.698 43.582,23.525 43.838,23.196 L55.269,8.461 C55.707,7.897 55.600,7.089 55.031,6.655 C54.462,6.223 53.645,6.328 53.208,6.891 L41.777,21.627 C41.340,22.189 41.446,22.998 42.016,23.432 ZM2.725,8.107 C3.162,7.543 3.055,6.735 2.486,6.301 L2.260,6.130 C1.690,5.696 0.875,5.802 0.437,6.367 C0.000,6.930 0.107,7.739 0.676,8.171 L0.902,8.344 C1.138,8.523 1.417,8.610 1.693,8.610 C2.083,8.610 2.469,8.437 2.725,8.107 ZM43.192,42.626 C43.320,43.143 43.116,43.683 42.677,43.990 C42.238,44.295 41.655,44.302 41.209,44.007 L35.120,39.985 L28.557,44.029 C28.346,44.159 28.108,44.223 27.870,44.223 C27.595,44.223 27.320,44.137 27.090,43.966 C26.661,43.646 26.474,43.099 26.619,42.587 L28.599,35.609 L22.688,30.675 C22.278,30.332 22.122,29.774 22.296,29.272 C22.470,28.769 22.937,28.424 23.473,28.403 L30.786,28.112 L33.696,21.018 C33.898,20.526 34.382,20.210 34.921,20.215 C35.457,20.224 35.933,20.557 36.119,21.056 L38.658,27.856 L46.368,28.405 C46.903,28.443 47.359,28.804 47.517,29.311 C47.675,29.819 47.501,30.371 47.080,30.701 L41.337,35.193 L43.192,42.626 ZM39.069,33.686 L42.840,30.736 L37.637,30.364 C37.128,30.328 36.688,30.001 36.511,29.527 L34.843,25.062 L32.879,29.850 C32.687,30.318 32.236,30.631 31.727,30.652 L26.924,30.843 L30.914,34.173 C31.304,34.499 31.466,35.020 31.328,35.506 L30.027,40.091 L34.457,37.360 C34.890,37.093 35.441,37.103 35.865,37.382 L39.864,40.024 L38.612,35.006 C38.490,34.516 38.668,34.000 39.069,33.686 ZM60.574,63.687 C60.138,63.121 59.322,63.015 58.752,63.447 C58.182,63.880 58.075,64.688 58.511,65.253 L58.699,65.496 C58.955,65.826 59.341,66.000 59.732,66.000 C60.007,66.000 60.286,65.913 60.522,65.734 C61.091,65.301 61.199,64.493 60.762,63.929 L60.574,63.687 ZM3.629,23.517 L4.647,22.509 L5.664,23.517 C5.918,23.769 6.251,23.894 6.583,23.894 C6.916,23.894 7.249,23.769 7.503,23.517 C8.010,23.015 8.010,22.199 7.503,21.695 L6.485,20.688 L7.503,19.679 C8.010,19.176 8.010,18.361 7.503,17.858 C6.995,17.355 6.172,17.355 5.664,17.858 L4.647,18.867 L3.629,17.858 C3.121,17.355 2.298,17.355 1.790,17.858 C1.283,18.361 1.283,19.176 1.790,19.679 L2.808,20.688 L1.791,21.695 C1.283,22.199 1.283,23.015 1.791,23.517 C2.298,24.019 3.121,24.019 3.629,23.517 ZM58.074,60.451 L57.886,60.207 C57.449,59.643 56.633,59.537 56.064,59.970 C55.494,60.402 55.386,61.210 55.823,61.775 L56.011,62.018 C56.267,62.349 56.653,62.522 57.043,62.522 C57.319,62.522 57.597,62.435 57.833,62.256 C58.403,61.823 58.511,61.015 58.074,60.451 ZM68.474,45.554 L69.492,44.546 C70.000,44.044 70.000,43.227 69.492,42.726 C68.984,42.223 68.162,42.223 67.654,42.726 L66.636,43.734 L65.618,42.725 C65.110,42.222 64.288,42.223 63.780,42.725 C63.272,43.227 63.272,44.044 63.780,44.546 L64.798,45.554 L63.780,46.562 C63.272,47.066 63.272,47.880 63.780,48.383 C64.288,48.886 65.111,48.886 65.618,48.383 L66.636,47.375 L67.654,48.383 C67.908,48.635 68.240,48.761 68.573,48.761 C68.906,48.761 69.238,48.635 69.492,48.383 C70.000,47.880 70.000,47.066 69.492,46.562 L68.474,45.554 ZM60.855,50.741 L48.743,41.519 C48.174,41.085 47.358,41.191 46.920,41.755 C46.483,42.319 46.589,43.128 47.158,43.560 L59.271,52.782 C59.507,52.962 59.786,53.050 60.062,53.050 C60.452,53.050 60.838,52.877 61.094,52.546 C61.531,51.982 61.425,51.174 60.855,50.741 ZM48.770,48.421 C48.333,47.856 47.517,47.750 46.948,48.182 C46.378,48.615 46.270,49.423 46.706,49.988 L53.169,58.343 C53.425,58.675 53.811,58.848 54.202,58.848 C54.477,58.848 54.755,58.761 54.991,58.582 C55.561,58.149 55.669,57.342 55.233,56.778 L48.770,48.421 ZM22.927,41.691 C22.491,41.126 21.675,41.020 21.105,41.452 L8.917,50.703 C8.347,51.134 8.239,51.943 8.676,52.508 C8.931,52.839 9.318,53.012 9.708,53.012 C9.984,53.012 10.262,52.925 10.498,52.746 L22.686,43.496 C23.256,43.064 23.364,42.255 22.927,41.691 ZM9.715,58.748 C9.207,58.245 8.384,58.245 7.876,58.748 L6.858,59.756 L5.841,58.748 C5.333,58.245 4.510,58.245 4.002,58.748 C3.494,59.251 3.494,60.066 4.002,60.569 L5.020,61.576 L4.002,62.585 C3.494,63.088 3.494,63.903 4.002,64.407 C4.510,64.909 5.333,64.909 5.840,64.407 L6.858,63.398 L7.876,64.407 C8.130,64.657 8.462,64.784 8.795,64.784 C9.128,64.784 9.460,64.657 9.714,64.407 C10.222,63.903 10.222,63.088 9.714,62.585 L8.697,61.576 L9.714,60.569 C10.222,60.066 10.222,59.251 9.715,58.748 ZM22.431,34.221 C22.338,33.515 21.683,33.020 20.974,33.111 L3.263,35.408 C2.552,35.500 2.050,36.146 2.143,36.851 C2.229,37.500 2.788,37.972 3.430,37.972 C3.487,37.972 3.544,37.969 3.601,37.961 L21.311,35.664 C22.023,35.572 22.525,34.925 22.431,34.221 ZM38.363,49.321 C38.266,48.616 37.609,48.124 36.900,48.219 C36.189,48.314 35.690,48.962 35.787,49.667 L37.778,64.208 C37.866,64.854 38.424,65.323 39.064,65.323 C39.122,65.323 39.181,65.319 39.240,65.311 C39.952,65.216 40.450,64.567 40.354,63.863 L38.363,49.321 ZM33.022,48.352 C32.312,48.252 31.653,48.743 31.552,49.447 L29.494,63.863 C29.394,64.567 29.888,65.218 30.599,65.318 C30.661,65.326 30.722,65.331 30.783,65.331 C31.420,65.331 31.976,64.866 32.068,64.224 L34.126,49.808 C34.227,49.103 33.732,48.452 33.022,48.352 ZM22.828,48.164 C22.259,47.731 21.443,47.837 21.006,48.400 L14.531,56.748 C14.093,57.311 14.200,58.119 14.769,58.553 C15.005,58.733 15.284,58.821 15.560,58.821 C15.950,58.821 16.336,58.646 16.592,58.317 L23.067,49.971 C23.504,49.407 23.398,48.598 22.828,48.164 Z"/>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="ineffective__block-bottom">
+                            <h3 class="ineffective__block-title">Чудо-средства</h3>
+
+                            <p class="ineffective__block-subtitle">Обещают, что избавят от грибка меньше, чем за месяц, хотя это невозможно.</p>
+
+                            <img src="assets/img/ineffective-block-img.png" alt="">
+
+                            <h3 class="ineffective__block-title ineffective__block-title--color">Но</h3>
+
+                            <p class="ineffective__block-subtitle">
+                                <span class="ineffective__block-subtitle--color">Ноготь – это роговой слой кожи. Он не имеет живых клеток. Часть ногтя, которая уже поражена грибком, не может выздороветь до полного его отрастания. Единственный способ вылечить грибок –</span>
+                                подавлять его распространение все время, пока ноготь не отрастет заново.
+                                <span class="ineffective__block-subtitle--color">Для этого требуется 4-6 месяцев.</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col ineffective__block-col">
+                    <div class="ineffective__block">
+                        <div class="ineffective__block-top">
+                            <div class="ineffective__block-icon">
+                                <svg class="ineffective__block-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48px" height="75px">
+                                    <path fill-rule="evenodd"  fill="rgb(255, 107, 0)" d="M29.508,30.556 L28.383,33.612 C28.283,33.885 28.076,34.108 27.810,34.231 C27.544,34.353 27.238,34.366 26.962,34.267 L25.473,33.731 L24.931,35.204 C24.767,35.649 24.342,35.926 23.889,35.926 C23.764,35.926 23.635,35.905 23.510,35.859 L20.421,34.748 C20.145,34.648 19.920,34.444 19.796,34.181 C19.671,33.917 19.658,33.615 19.759,33.342 L20.301,31.869 L18.811,31.333 C18.535,31.233 18.310,31.029 18.186,30.766 C18.062,30.503 18.048,30.201 18.149,29.928 L19.273,26.871 C19.483,26.302 20.119,26.009 20.694,26.216 L22.183,26.752 L22.725,25.279 C22.826,25.005 23.032,24.783 23.298,24.661 C23.565,24.537 23.870,24.524 24.146,24.624 L27.236,25.736 C27.811,25.944 28.107,26.573 27.898,27.141 L27.356,28.615 L28.845,29.151 C29.420,29.358 29.717,29.986 29.508,30.556 ZM25.556,30.300 C24.981,30.093 24.684,29.464 24.894,28.895 L25.436,27.422 L24.429,27.059 L23.887,28.533 C23.787,28.806 23.581,29.028 23.314,29.152 C23.047,29.273 22.743,29.287 22.467,29.188 L20.977,28.651 L20.611,29.647 L22.101,30.184 C22.676,30.390 22.973,31.020 22.763,31.589 L22.221,33.062 L23.227,33.424 L23.769,31.951 C23.978,31.382 24.614,31.088 25.190,31.296 L26.679,31.832 L27.045,30.837 L25.556,30.300 ZM31.804,27.622 C32.405,27.509 32.986,27.899 33.101,28.494 C33.420,30.141 33.280,31.850 32.697,33.434 C31.304,37.222 27.675,39.579 23.819,39.579 C22.749,39.579 21.662,39.398 20.600,39.015 C15.710,37.254 13.179,31.886 14.959,27.048 C15.821,24.704 17.555,22.833 19.840,21.779 C22.124,20.726 24.687,20.614 27.057,21.468 C28.475,21.979 29.761,22.827 30.776,23.919 C31.190,24.365 31.160,25.059 30.709,25.469 C30.258,25.878 29.557,25.849 29.143,25.401 C28.356,24.555 27.399,23.924 26.298,23.529 C24.486,22.876 22.525,22.961 20.776,23.767 C19.028,24.572 17.702,26.006 17.042,27.798 C16.383,29.591 16.468,31.531 17.284,33.261 C18.099,34.990 19.546,36.301 21.358,36.954 C25.099,38.301 29.252,36.386 30.614,32.685 C31.060,31.472 31.167,30.165 30.923,28.905 C30.808,28.311 31.202,27.736 31.804,27.622 ZM47.791,11.781 L45.604,17.725 C45.603,17.726 45.602,17.728 45.602,17.730 C45.597,17.741 45.592,17.752 45.587,17.763 C45.578,17.788 45.568,17.811 45.557,17.834 C45.556,17.836 45.555,17.838 45.554,17.841 L30.065,48.434 C29.017,50.504 26.899,51.729 24.674,51.729 C23.987,51.729 23.291,51.612 22.613,51.368 L21.921,51.118 L19.455,57.820 C19.291,58.264 18.866,58.542 18.413,58.542 C18.288,58.542 18.160,58.519 18.034,58.474 L9.922,55.554 C9.645,55.455 9.421,55.250 9.296,54.987 C9.172,54.723 9.159,54.421 9.259,54.148 L11.725,47.447 L11.033,47.198 C8.156,46.161 6.521,43.159 7.231,40.212 L12.537,18.170 C12.679,17.580 13.277,17.216 13.873,17.357 C14.468,17.498 14.836,18.089 14.694,18.678 L9.387,40.721 C8.939,42.584 9.972,44.482 11.791,45.137 L13.524,45.761 C13.524,45.761 13.524,45.761 13.525,45.762 L21.637,48.683 L21.638,48.683 L23.371,49.307 C25.190,49.961 27.215,49.164 28.082,47.452 L43.014,17.960 L37.428,15.948 L17.113,8.634 L15.743,14.323 C15.601,14.913 15.003,15.277 14.407,15.136 C13.812,14.996 13.444,14.405 13.586,13.816 L15.244,6.928 C15.245,6.926 15.246,6.922 15.247,6.920 C15.253,6.895 15.261,6.871 15.269,6.845 C15.272,6.835 15.275,6.823 15.279,6.812 C15.280,6.811 15.280,6.809 15.281,6.807 L17.468,0.862 C17.677,0.294 18.313,-0.001 18.889,0.207 L23.594,1.901 C23.594,1.901 23.595,1.901 23.595,1.901 C23.596,1.902 23.596,1.902 23.597,1.902 L47.128,10.374 C47.703,10.581 48.000,11.211 47.791,11.781 ZM13.808,48.197 L11.721,53.868 L17.751,56.039 L19.837,50.368 L13.808,48.197 ZM42.705,11.116 L41.991,13.057 C41.827,13.502 41.402,13.779 40.949,13.779 C40.823,13.779 40.695,13.757 40.570,13.712 C39.995,13.506 39.698,12.877 39.907,12.308 L40.622,10.366 L37.998,9.421 L37.284,11.363 C37.120,11.808 36.695,12.085 36.242,12.085 C36.117,12.085 35.989,12.063 35.863,12.019 C35.288,11.812 34.991,11.182 35.201,10.612 L35.915,8.670 L33.292,7.727 L32.577,9.668 C32.414,10.113 31.988,10.390 31.536,10.390 C31.410,10.390 31.282,10.369 31.157,10.324 C30.581,10.116 30.285,9.488 30.494,8.919 L31.209,6.977 L28.585,6.033 L27.871,7.974 C27.707,8.419 27.282,8.696 26.829,8.696 C26.703,8.696 26.575,8.674 26.450,8.629 C25.875,8.421 25.578,7.792 25.788,7.223 L26.502,5.282 L23.879,4.338 L23.164,6.279 C23.001,6.724 22.575,7.001 22.122,7.001 C21.997,7.001 21.869,6.981 21.744,6.934 C21.168,6.727 20.872,6.098 21.081,5.529 L21.796,3.587 L19.172,2.642 L17.743,6.526 L30.822,11.235 L43.900,15.943 L45.329,12.060 L42.705,11.116 ZM7.944,57.897 C7.575,58.542 7.381,59.272 7.381,60.010 C7.381,62.384 9.334,64.316 11.734,64.316 L27.954,64.316 C32.515,64.316 36.226,67.987 36.226,72.498 L36.226,73.903 C36.226,74.509 35.729,74.999 35.117,74.999 L16.171,74.999 C15.559,74.999 15.062,74.509 15.062,73.903 C15.062,73.297 15.559,72.807 16.171,72.807 L34.008,72.807 L34.008,72.498 C34.008,69.196 31.293,66.510 27.954,66.510 L11.734,66.510 C8.111,66.510 5.164,63.593 5.164,60.010 C5.164,59.843 5.170,59.677 5.183,59.513 C3.349,60.882 2.217,63.046 2.217,65.412 C2.217,69.490 5.570,72.807 9.692,72.807 L11.655,72.807 C12.267,72.807 12.763,73.297 12.763,73.903 C12.763,74.509 12.267,74.999 11.655,74.999 L9.692,74.999 C4.348,74.999 -0.000,70.699 -0.000,65.412 C-0.000,61.278 2.664,57.623 6.628,56.317 C7.063,56.173 7.543,56.310 7.834,56.660 C8.126,57.010 8.169,57.502 7.944,57.897 Z"/>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="ineffective__block-bottom">
+                            <h3 class="ineffective__block-title">Наружные средства</h3>
+
+                            <p class="ineffective__block-subtitle">Способны устранить внешние проявления грибка.</p>
+
+                            <p class="ineffective__block-subtitle ineffective__block-subtitle--italic">(кремы, лаки, пластыри)</p>
+
+                            <img src="assets/img/ineffective-block-img.png" alt="">
+
+                            <h3 class="ineffective__block-title ineffective__block-title--color">Но</h3>
+
+                            <p class="ineffective__block-subtitle">
+                                <span class="ineffective__block-subtitle--color">Очаг заражения находится под ногтевой пластиной, а наружные средства  не способны его достичь - они действуют только на на верхнем слое ногтя, поэтому</span>
+                                не способны избавить от грибка
+                                <span class="ineffective__block-subtitle--color">Для повышения их эффективности рекомендуется</span>
+                                спиливать ноготь полностью,
+                                <span class="ineffective__block-subtitle--color">но это больно, некрасивои совершенно</span>
+                                не дает гарантий выздоровления.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col ineffective__block-col">
+                    <div class="ineffective__block">
+                        <div class="ineffective__block-top">
+                            <div class="ineffective__block-icon">
+                                <svg class="ineffective__block-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59px" height="63px">
+                                    <path fill-rule="evenodd"  fill="rgb(255, 107, 0)" d="M53.721,52.760 L38.939,61.322 C34.319,63.999 28.424,62.461 25.690,57.864 L6.096,57.864 C2.735,57.864 0.000,55.119 0.000,51.746 L0.000,28.055 C0.000,26.741 0.433,25.439 1.219,24.385 L7.315,16.229 L7.315,12.757 C5.896,12.253 4.877,10.892 4.877,9.297 L4.877,3.670 C4.877,1.646 6.518,-0.001 8.535,-0.001 L30.481,-0.001 C32.497,-0.001 34.138,1.646 34.138,3.670 L34.138,9.297 C34.138,10.892 33.119,12.253 31.700,12.757 L31.700,16.229 L37.796,24.384 C38.582,25.439 39.015,26.741 39.015,28.055 L39.015,38.678 L43.968,35.809 C48.637,33.104 54.596,34.707 57.291,39.391 C60.000,44.101 58.349,50.078 53.721,52.760 ZM2.439,51.746 C2.439,53.770 4.079,55.417 6.096,55.417 L24.648,55.417 C24.206,53.791 24.203,52.098 24.590,50.511 L2.439,50.511 L2.439,51.746 ZM31.700,3.670 C31.700,2.995 31.153,2.446 30.480,2.446 L8.535,2.446 C7.862,2.446 7.315,2.995 7.315,3.670 L7.316,3.670 L7.316,9.297 C7.316,9.972 7.862,10.520 8.535,10.520 L30.480,10.520 C31.153,10.520 31.700,9.972 31.700,9.297 L31.700,3.670 ZM35.845,25.852 L29.871,17.861 L18.288,17.861 C17.615,17.861 17.069,17.312 17.069,16.637 C17.069,15.961 17.615,15.414 18.288,15.414 L29.261,15.414 L29.261,12.967 L9.754,12.967 L9.754,16.637 C9.754,16.901 9.668,17.159 9.510,17.371 L3.170,25.852 C2.780,26.375 2.538,27.000 2.464,27.647 L36.551,27.647 C36.478,27.001 36.235,26.375 35.845,25.852 ZM36.577,30.094 L2.439,30.094 L2.439,48.077 L25.546,48.077 C26.399,46.537 27.644,45.266 29.185,44.372 L36.577,40.090 L36.577,30.094 ZM37.023,42.657 L30.405,46.491 C26.928,48.505 25.697,52.972 27.728,56.519 C29.750,60.032 34.221,61.231 37.720,59.204 L44.338,55.370 L37.023,42.657 ZM55.179,40.614 C53.158,37.101 48.688,35.900 45.187,37.928 L39.135,41.434 L46.450,54.147 L52.502,50.640 C55.975,48.629 57.210,44.146 55.179,40.614 ZM24.384,40.736 L20.727,40.736 L20.727,44.406 C20.727,45.082 20.181,45.629 19.508,45.629 C18.834,45.629 18.288,45.082 18.288,44.406 L18.288,40.736 L14.631,40.736 C13.958,40.736 13.412,40.189 13.412,39.513 C13.412,38.838 13.958,38.290 14.631,38.290 L18.288,38.290 L18.288,34.620 C18.288,33.945 18.834,33.396 19.508,33.396 C20.181,33.396 20.727,33.945 20.727,34.620 L20.727,38.290 L24.384,38.290 C25.058,38.290 25.604,38.838 25.604,39.513 C25.604,40.189 25.058,40.736 24.384,40.736 ZM13.412,15.414 C14.084,15.414 14.631,15.961 14.631,16.637 C14.631,17.312 14.084,17.861 13.412,17.861 C12.738,17.861 12.192,17.312 12.192,16.637 C12.192,15.961 12.738,15.414 13.412,15.414 Z"/>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="ineffective__block-bottom">
+                            <h3 class="ineffective__block-title">Внутренние средства</h3>
+
+                            <p class="ineffective__block-subtitle">Убивают грибковую инфекцию в организме.</p>
+
+                            <p class="ineffective__block-subtitle ineffective__block-subtitle--italic">(таблетки, саше, капли)</p>
+
+                            <img src="assets/img/ineffective-block-img.png" alt="">
+
+                            <h3 class="ineffective__block-title ineffective__block-title--color">Но</h3>
+
+                            <p class="ineffective__block-subtitle">Могут подействовать только при длительном использовании
+                                <span class="ineffective__block-subtitle--color">(6 - 8 месяцев). За это время внутренние средства в 93% случаев наносят</span> серьезный ущерб печени,
+                                <span class="ineffective__block-subtitle--color">вызывают сыпь, отеки, диарею, рвоту. К тому же, каждое средство эффективно только против одной группыгрибка из 4000 видов</span>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ineffective__conclusion">
+                <h3 class="ineffective__conclusion-title">ВЫВОД:</h3>
+
+                <p class="ineffective__conclusion-text">Даже если вы используете наружные и внутренние средства одновременно, это
+                    <span class="ineffective__conclusion-text--color">не гарантирует избавления от грибка:</span>
+                    они могут конфликтовать между собой по составу и блокировать действие
+                    друг друга или быть неэффективными против вашего типа грибка.</p>
+            </div>
+        </div>
+
+        <div class="ineffective__bottom-img">
+            <img src="assets/img/ineffective-bottom-img.png" alt="">
+        </div>
+    </section>
+
+    <section class="section effect">
+        <div class="container">
+            <div class="section__info">
+                <div class="section__logo">
+                    <img src="assets/img/logo.png" alt="">
+                </div>
+
+                <h2 class="section__title">Почему таблетки <span class="section__title-effect">Микоцин</span> от грибка так эффективны?</h2>
+
+                <p class="section__subtitle section__subtitle-effect">Другие средства не дают полную защиту от грибковых инфекций и могут быть опасны</p>
+            </div>
+
+            <div class="row effect__row">
+                <div class="col effect__block-col">
+                    <div class="effect__block">
+                        <div class="effect__block-subject">
+                            <img src="assets/img/effect-block-img-1.png">
+                        </div>
+
+                        <h3 class="effect__block-title">Кремы и мази</h3>
+
+                        <p class="effect__block-text">
+                            <span class="effect__block-text--color">Не лечат грибок, потомучто не проникают в ногтевую пластину.</span>
+                            Только временно избавляют от симптомов инфекций. Могут вызвать сильную аллергию и раздражения на коже.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col effect__block-col">
+                    <div class="effect__block">
+                        <div class="effect__block-subject">
+                            <img src="assets/img/effect-block-img-2.png">
+                        </div>
+
+                        <h3 class="effect__block-title">Народные методы</h3>
+
+                        <p class="effect__block-text">
+                            Помогают только в редких случаях.
+                            <span class="effect__block-text--color">Могут причинить вред кожеи ногтям.</span>
+                            Не предотвращают повторные заражения грибком.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col effect__block-col">
+                    <div class="effect__block effect__block--color">
+                        <div class="effect__block-subject effect__block-subject--color">
+                            <img src="assets/img/effect-block-img-3.png">
+                        </div>
+
+                        <h3 class="effect__block-title">Таблетки</h3>
+
+                        <p class="effect__block-text">
+                            <span class="effect__block-text--color">Действуют против всех видов грибков.</span>
+                            Только временно избавляют от симптомов инфекций. Могут вызвать сильную аллергию и раздражения на коже.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="effect__slogan">
+                <p class="effect__slogan-text">Зачем лечить сложнее, дольше и дороже, если есть <span class="section__title-effect">Микоцин?</span></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section use">
+        <div class="use__top-img">
+            <img src="assets/img/use-top-img.png" alt="">
+        </div>
+
+        <div class="container">
+            <div class="section__info">
+                <div class="section__logo">
+                    <img src="assets/img/logo.png" alt="">
+                </div>
+
+                <h2 class="section__title">Как применять <span class="section__title-effect">Микоцин</span></h2>
+            </div>
+            <div class="row use__row">
+                <div class="col use__block-col">
+                    <div class="use__block use__block-img">
+                        <img src="assets/img/use-product-img.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col use__block-col">
+                    <div class="use__block">
+                        <div class="use__block-direction">
+                            <div class="use__block-circle-wrap">
+                                <div class="use__block-circle-inner">
+                                    <svg class="use__block-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61px" height="61px">
+                                        <path fill-rule="evenodd"  fill="rgb(246, 77, 1)" d="M42.541,28.346 C42.763,28.567 42.891,28.875 42.891,29.188 C42.891,29.502 42.763,29.809 42.541,30.030 C42.320,30.252 42.012,30.380 41.699,30.380 C41.385,30.380 41.078,30.252 40.857,30.030 C40.634,29.809 40.508,29.502 40.508,29.188 C40.508,28.875 40.634,28.567 40.857,28.346 C41.078,28.124 41.384,27.996 41.699,27.996 C42.012,27.996 42.320,28.124 42.541,28.346 ZM41.699,60.998 C31.056,60.998 22.398,52.340 22.398,41.697 C22.398,41.039 22.931,40.506 23.589,40.506 C24.247,40.506 24.781,41.039 24.781,41.697 C24.781,50.626 31.733,57.959 40.507,58.573 L40.507,33.954 C40.507,33.296 41.041,32.761 41.699,32.761 C42.357,32.761 42.890,33.296 42.890,33.954 L42.890,58.573 C51.665,57.960 58.617,50.626 58.617,41.697 C58.617,32.369 51.028,24.779 41.699,24.779 C40.334,24.779 38.979,24.943 37.666,25.264 C36.739,28.130 35.140,30.756 32.949,32.948 C29.304,36.593 24.457,38.600 19.301,38.600 C19.301,38.600 19.301,38.600 19.301,38.600 C14.145,38.600 9.298,36.593 5.653,32.948 C2.008,29.302 -0.000,24.455 -0.000,19.299 C0.000,14.144 2.008,9.297 5.653,5.652 C9.298,2.006 14.145,-0.002 19.301,-0.002 C24.456,-0.002 29.303,2.005 32.949,5.652 C36.594,9.296 38.601,14.144 38.601,19.299 C38.601,20.450 38.501,21.586 38.305,22.697 C39.421,22.498 40.557,22.396 41.699,22.396 C52.341,22.396 61.000,31.055 61.000,41.697 C61.000,52.340 52.342,60.998 41.699,60.998 ZM31.264,7.337 C28.068,4.141 23.820,2.381 19.301,2.381 C15.181,2.381 11.287,3.845 8.210,6.523 L28.491,26.804 C28.956,27.271 28.956,28.024 28.491,28.489 C28.258,28.722 27.953,28.839 27.648,28.839 C27.344,28.839 27.039,28.722 26.806,28.489 L6.525,8.209 C3.846,11.286 2.383,15.180 2.383,19.299 C2.383,23.818 4.142,28.067 7.338,31.263 C10.533,34.457 14.781,36.217 19.301,36.217 C23.820,36.217 28.069,34.457 31.264,31.263 C34.459,28.067 36.219,23.819 36.219,19.299 C36.219,14.780 34.459,10.532 31.264,7.337 ZM28.890,10.902 C28.585,10.902 28.280,10.785 28.047,10.553 C25.606,8.113 22.224,6.797 18.775,6.941 C18.115,6.969 17.562,6.459 17.534,5.802 C17.507,5.144 18.017,4.588 18.674,4.561 C22.791,4.386 26.821,5.956 29.732,8.868 C30.197,9.333 30.197,10.087 29.732,10.553 C29.499,10.785 29.194,10.902 28.890,10.902 ZM15.223,7.619 C15.093,7.664 14.961,7.685 14.831,7.685 C14.342,7.685 13.885,7.383 13.710,6.897 C13.487,6.278 13.808,5.596 14.427,5.373 C14.438,5.369 14.458,5.363 14.469,5.358 C15.094,5.154 15.767,5.495 15.972,6.121 C16.175,6.742 15.840,7.410 15.223,7.619 Z"/>
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <h3 class="use__block-title">Принимать по 1 таблетке <br>утром и вечером</h3>
+                        </div>
+
+                        <div class="use__block-direction">
+                            <div class="use__block-circle-wrap">
+                                <div class="use__block-circle-inner">
+                                    <svg class="use__block-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62px" height="61px">
+                                        <path fill-rule="evenodd"  fill="rgb(250, 89, 14)" d="M52.927,43.648 L52.927,33.724 C52.927,33.066 53.460,32.534 54.118,32.534 C54.775,32.534 55.309,33.066 55.309,33.724 L55.309,43.648 C55.309,44.306 54.775,44.838 54.118,44.838 C53.460,44.838 52.927,44.306 52.927,43.648 ZM54.117,49.363 C53.804,49.363 53.497,49.237 53.276,49.015 C53.054,48.793 52.927,48.487 52.927,48.174 C52.927,47.859 53.054,47.554 53.276,47.331 C53.497,47.109 53.804,46.981 54.117,46.981 C54.432,46.981 54.738,47.109 54.959,47.331 C55.182,47.552 55.308,47.859 55.308,48.174 C55.308,48.487 55.182,48.793 54.959,49.015 C54.738,49.237 54.432,49.363 54.117,49.363 ZM20.666,30.748 C20.888,30.969 21.015,31.277 21.015,31.589 C21.015,31.903 20.887,32.211 20.666,32.431 C20.445,32.653 20.137,32.781 19.824,32.781 C19.511,32.781 19.204,32.653 18.982,32.431 C18.761,32.211 18.633,31.903 18.633,31.589 C18.633,31.277 18.761,30.969 18.982,30.748 C19.204,30.527 19.511,30.399 19.824,30.399 C20.137,30.399 20.445,30.527 20.666,30.748 ZM55.072,60.996 L24.587,60.996 C21.304,60.996 18.633,58.325 18.633,55.042 L18.633,36.843 C18.633,36.186 19.167,35.652 19.824,35.652 C20.482,35.652 21.015,36.186 21.015,36.843 L21.015,55.042 C21.015,57.012 22.618,58.616 24.587,58.616 L55.072,58.616 C57.042,58.616 58.645,57.012 58.645,55.042 L58.645,22.566 C57.588,22.961 56.089,23.421 54.240,23.731 C53.054,23.930 51.637,24.076 50.041,24.076 C47.014,24.076 43.341,23.549 39.372,21.846 C30.415,18.006 23.090,20.607 21.015,21.516 L21.015,25.145 C21.015,25.801 20.482,26.335 19.824,26.335 C19.167,26.335 18.633,25.801 18.633,25.145 L18.633,1.218 C18.633,0.560 19.167,0.026 19.824,0.026 L59.836,0.026 C60.493,0.026 61.026,0.560 61.026,1.218 L61.026,55.042 C61.026,58.325 58.355,60.996 55.072,60.996 ZM58.645,2.409 L21.015,2.409 L21.015,18.948 C22.074,18.550 23.581,18.085 25.442,17.774 C28.878,17.198 34.248,17.059 40.310,19.657 C44.717,21.547 49.238,22.132 53.747,21.398 C56.066,21.020 57.785,20.372 58.645,19.997 L58.645,2.409 ZM10.234,60.998 C6.163,60.998 2.851,57.686 2.851,53.615 C2.851,49.543 6.163,46.231 10.234,46.231 C14.305,46.231 17.617,49.543 17.617,53.615 C17.617,57.686 14.305,60.998 10.234,60.998 ZM9.043,48.758 C6.859,49.293 5.233,51.268 5.233,53.615 C5.233,55.963 6.859,57.936 9.043,58.472 L9.043,48.758 ZM11.425,48.758 L11.425,58.472 C13.610,57.936 15.236,55.962 15.236,53.615 C15.236,51.267 13.610,49.293 11.425,48.758 ZM7.440,41.702 C5.467,41.702 3.613,40.934 2.219,39.540 C-0.660,36.661 -0.660,31.977 2.219,29.098 C5.098,26.220 9.782,26.220 12.660,29.098 C14.055,30.492 14.823,32.346 14.823,34.319 C14.823,36.291 14.055,38.146 12.660,39.540 C11.266,40.934 9.412,41.702 7.440,41.702 ZM3.903,37.856 C4.848,38.800 6.104,39.321 7.440,39.321 C8.369,39.321 9.259,39.068 10.034,38.597 L3.163,31.727 C1.997,33.650 2.243,36.196 3.903,37.856 ZM10.976,30.782 C10.001,29.807 8.720,29.319 7.440,29.319 C6.540,29.319 5.641,29.561 4.847,30.043 L11.718,36.913 C12.189,36.138 12.441,35.249 12.441,34.319 C12.441,32.982 11.921,31.727 10.976,30.782 Z"/>
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <h3 class="use__block-title">Запивать стаканом воды</h3>
+                        </div>
+
+                        <div class="use__block-direction">
+                            <div class="use__block-circle-wrap">
+                                <div class="use__block-circle-inner">
+                                    <svg class="use__block-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px" height="60px">
+                                        <path fill-rule="evenodd"  fill="rgb(250, 79, 1)" d="M54.880,15.225 C55.098,15.442 55.223,15.744 55.223,16.053 C55.223,16.361 55.098,16.663 54.880,16.881 C54.662,17.100 54.360,17.224 54.051,17.224 C53.743,17.224 53.441,17.100 53.223,16.881 C53.005,16.663 52.879,16.361 52.879,16.053 C52.879,15.744 53.005,15.442 53.223,15.225 C53.441,15.007 53.743,14.881 54.051,14.881 C54.360,14.881 54.662,15.007 54.880,15.225 ZM48.388,35.623 C50.843,35.623 52.841,37.620 52.841,40.077 C52.841,42.532 50.843,44.529 48.388,44.529 C45.932,44.529 43.935,42.532 43.935,40.077 C43.935,37.620 45.932,35.623 48.388,35.623 ZM48.388,42.186 C49.551,42.186 50.497,41.240 50.497,40.077 C50.497,38.913 49.551,37.967 48.388,37.967 C47.225,37.967 46.279,38.913 46.279,40.077 C46.279,41.240 47.225,42.186 48.388,42.186 ZM48.388,23.435 C50.843,23.435 52.841,25.434 52.841,27.889 C52.841,30.345 50.843,32.343 48.388,32.343 C45.932,32.343 43.935,30.345 43.935,27.889 C43.935,25.434 45.932,23.435 48.388,23.435 ZM48.388,29.998 C49.551,29.998 50.497,29.052 50.497,27.889 C50.497,26.725 49.551,25.780 48.388,25.780 C47.225,25.780 46.279,26.725 46.279,27.889 C46.279,29.052 47.225,29.998 48.388,29.998 ZM37.450,23.435 C39.906,23.435 41.904,25.434 41.904,27.889 C41.904,30.345 39.906,32.343 37.450,32.343 C34.995,32.343 32.997,30.345 32.997,27.889 C32.997,25.434 34.995,23.435 37.450,23.435 ZM37.450,29.998 C38.613,29.998 39.560,29.052 39.560,27.889 C39.560,26.725 38.613,25.780 37.450,25.780 C36.287,25.780 35.341,26.725 35.341,27.889 C35.341,29.052 36.287,29.998 37.450,29.998 ZM34.998,51.685 C35.216,51.903 35.341,52.204 35.341,52.512 C35.341,52.820 35.216,53.122 34.998,53.342 C34.780,53.561 34.478,53.684 34.169,53.684 C33.861,53.684 33.559,53.561 33.341,53.342 C33.123,53.122 32.997,52.821 32.997,52.512 C32.997,52.204 33.123,51.903 33.341,51.685 C33.559,51.466 33.861,51.341 34.169,51.341 C34.478,51.341 34.780,51.466 34.998,51.685 ZM37.450,35.623 C39.906,35.623 41.904,37.620 41.904,40.077 C41.904,42.532 39.906,44.529 37.450,44.529 C34.995,44.529 32.997,42.532 32.997,40.077 C32.997,37.620 34.995,35.623 37.450,35.623 ZM37.450,42.186 C38.613,42.186 39.560,41.240 39.560,40.077 C39.560,38.913 38.613,37.967 37.450,37.967 C36.287,37.967 35.341,38.913 35.341,40.077 C35.341,41.240 36.287,42.186 37.450,42.186 ZM26.513,35.623 C28.968,35.623 30.966,37.620 30.966,40.077 C30.966,42.532 28.968,44.529 26.513,44.529 C24.057,44.529 22.060,42.532 22.060,40.077 C22.060,37.620 24.057,35.623 26.513,35.623 ZM26.513,42.186 C27.676,42.186 28.622,41.240 28.622,40.077 C28.622,38.913 27.676,37.967 26.513,37.967 C25.350,37.967 24.404,38.913 24.404,40.077 C24.404,41.240 25.350,42.186 26.513,42.186 ZM26.513,23.435 C28.968,23.435 30.966,25.434 30.966,27.889 C30.966,30.345 28.968,32.343 26.513,32.343 C24.057,32.343 22.060,30.345 22.060,27.889 C22.060,25.434 24.057,23.435 26.513,23.435 ZM26.513,29.998 C27.676,29.998 28.622,29.052 28.622,27.889 C28.622,26.725 27.676,25.780 26.513,25.780 C25.350,25.780 24.404,26.725 24.404,27.889 C24.404,29.052 25.350,29.998 26.513,29.998 ZM20.029,27.889 C20.029,30.345 18.031,32.343 15.575,32.343 C13.120,32.343 11.122,30.345 11.122,27.889 C11.122,25.434 13.120,23.435 15.575,23.435 C18.031,23.435 20.029,25.434 20.029,27.889 ZM13.466,27.889 C13.466,29.052 14.412,29.998 15.575,29.998 C16.739,29.998 17.685,29.052 17.685,27.889 C17.685,26.725 16.739,25.780 15.575,25.780 C14.412,25.780 13.466,26.725 13.466,27.889 ZM55.546,59.998 L4.453,59.998 C1.998,59.998 -0.000,58.001 -0.000,55.545 L-0.000,52.513 C-0.000,51.866 0.525,51.340 1.172,51.340 L4.342,51.340 C2.294,49.578 0.993,46.969 0.993,44.061 C0.993,38.762 5.304,34.452 10.603,34.452 C15.901,34.452 20.212,38.762 20.212,44.061 C20.212,46.969 18.912,49.578 16.864,51.340 L28.573,51.340 C29.220,51.340 29.745,51.866 29.745,52.513 C29.745,53.160 29.220,53.685 28.573,53.685 L2.344,53.685 L2.344,55.545 C2.344,56.708 3.290,57.655 4.453,57.655 L51.625,57.655 C51.285,57.026 51.092,56.308 51.092,55.544 L51.092,53.685 L38.633,53.685 C37.986,53.685 37.461,53.160 37.461,52.513 C37.461,51.866 37.986,51.340 38.633,51.340 L52.264,51.340 C52.911,51.340 53.436,51.866 53.436,52.513 L53.436,55.544 C53.436,56.708 54.382,57.655 55.546,57.655 C56.710,57.655 57.656,56.708 57.656,55.544 L57.656,11.014 C57.656,9.075 56.079,7.499 54.140,7.499 L48.555,7.499 L48.555,8.964 C48.555,10.902 46.977,12.479 45.039,12.479 C43.100,12.479 41.523,10.902 41.523,8.964 L41.523,7.499 L21.836,7.499 L21.836,8.964 C21.836,10.902 20.259,12.479 18.320,12.479 C16.382,12.479 14.805,10.902 14.805,8.964 L14.805,7.455 C14.705,7.482 14.601,7.499 14.492,7.499 L9.823,7.499 C7.884,7.499 6.307,9.075 6.307,11.014 L6.307,14.881 L48.555,14.881 C49.202,14.881 49.726,15.406 49.726,16.053 C49.726,16.700 49.202,17.224 48.555,17.224 L6.307,17.224 L6.307,30.976 C6.307,31.622 5.782,32.147 5.135,32.147 C4.488,32.147 3.963,31.622 3.963,30.976 L3.963,11.014 C3.963,7.783 6.592,5.155 9.823,5.155 L14.492,5.155 C14.601,5.155 14.705,5.170 14.805,5.198 L14.805,3.514 C14.805,1.576 16.382,-0.002 18.320,-0.002 C20.259,-0.002 21.836,1.576 21.836,3.514 L21.836,5.155 L41.523,5.155 L41.523,3.514 C41.523,1.576 43.100,-0.002 45.039,-0.002 C46.977,-0.002 48.555,1.576 48.555,3.514 L48.555,5.155 L54.140,5.155 C57.371,5.155 60.000,7.783 60.000,11.014 L60.000,55.544 C60.000,58.001 58.002,59.998 55.546,59.998 ZM10.603,51.326 C14.609,51.326 17.868,48.067 17.868,44.061 C17.868,40.054 14.609,36.796 10.603,36.796 C6.597,36.796 3.337,40.054 3.337,44.061 C3.337,48.067 6.597,51.326 10.603,51.326 ZM19.492,3.514 C19.492,2.868 18.966,2.342 18.320,2.342 C17.674,2.342 17.148,2.868 17.148,3.514 L17.148,8.964 C17.148,9.609 17.674,10.136 18.320,10.136 C18.966,10.136 19.492,9.609 19.492,8.964 L19.492,3.514 ZM46.211,3.514 C46.211,2.868 45.685,2.342 45.039,2.342 C44.393,2.342 43.867,2.868 43.867,3.514 L43.867,8.964 C43.867,9.609 44.393,10.136 45.039,10.136 C45.685,10.136 46.211,9.609 46.211,8.964 L46.211,3.514 ZM8.000,43.717 L9.304,45.021 L13.120,41.205 C13.578,40.747 14.320,40.747 14.778,41.205 C15.235,41.663 15.235,42.405 14.778,42.861 L10.133,47.508 C9.913,47.727 9.615,47.851 9.304,47.851 C8.993,47.851 8.695,47.727 8.475,47.508 L6.342,45.375 C5.885,44.916 5.885,44.174 6.342,43.717 C6.800,43.259 7.542,43.259 8.000,43.717 Z"/>
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <h3 class="use__block-title">Курс – от 30 дней</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
