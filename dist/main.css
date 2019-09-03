@@ -65,7 +65,7 @@ ul {
     width: 100%; } }
 
 .hero {
-  background: linear-gradient(to right, rgba(243, 249, 255, 0.6) 25%, #f3f9ff 50%), url("/everad-test/assets/img/hero-bg.png") no-repeat;
+  background: linear-gradient(to right, rgba(243, 249, 255, 0.6) 25%, #f3f9ff 50%), url("../assets/img/hero-bg.png") no-repeat;
   min-height: 835px;
   position: relative; }
   .hero__container {
@@ -285,11 +285,11 @@ ul {
       border: none;
       outline: none; }
   .form__input-name {
-    background-image: url("/everad-test/assets/img/hero-input-name-icon.png");
+    background-image: url("../assets/img/hero-input-name-icon.png");
     background-repeat: no-repeat;
     background-position: 17px center; }
   .form__input-phone {
-    background-image: url("/everad-test/assets/img/hero-input-phone-icon.png");
+    background-image: url("../assets/img/hero-input-phone-icon.png");
     background-repeat: no-repeat;
     background-position: 17px center; }
   .form__button {
@@ -379,7 +379,7 @@ ul {
     width: 570px;
     height: 570px;
     background-color: #008064;
-    background-image: url("/everad-test/assets/img/hero-bg.png");
+    background-image: url("../assets/img/hero-bg.png");
     background-position: center;
     border-radius: 50%;
     transform: rotate(10deg);
